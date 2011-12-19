@@ -1,0 +1,67 @@
+@font-face {
+    font-family:Chocktoff;
+    src:url("Chocktoff.ttf"); 
+    font-style:normal;
+}
+body {
+    padding:0px;
+    margin:0px;
+    background:#CCCCCC;
+}
+.Top_Bar {
+    background-color:#D00000;
+    color:#FFFFFF;
+    font-size:30px;
+    width:100%;
+    font-family:Chocktoff,sans-serif;
+}
+.Name_Text {
+    padding-top:20px;
+    background-color:#D00000;
+    width:800px;
+}
+.Top_Bar_Menu {
+    width:800px;
+    height:39px;
+    border:1px solid #BBBBBB;
+    margin-left:auto;
+    margin-right:auto;
+}
+.Top_Bar_Divider {
+    background-color:#000000;
+    border-top:1px #BBBBBB solid;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    height:30px;
+}
+.Top_Bar_Menu_Item {
+    border-top:1px solid #777777;
+    color:#FFFFFF;
+    background-color:black;
+    text-align:center;
+    width:266px;
+    text-decoration:none;
+    display:inline;
+    float:left;
+    height:100%;
+}
+.Top_Bar_Menu_Divider {
+    background-color:#BBBBBB;
+    width:1px;
+    float:left;
+    display:inline;
+    height:100%;
+}
+.Top_Bar_Menu_Item:hover {
+    background-color:#333333;
+}
+.Content {
+    background-color:#E7E7E7;
+    padding:5px;
+    width:790px;
+    height:500px;
+    border:1px solid #BBBBBB;
+    margin-left:auto;
+    margin-right:auto;
+}
