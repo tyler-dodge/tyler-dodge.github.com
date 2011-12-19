@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="Top_Bar">
+      <div class="Name_Text">Tyler Dodge</div>
+      <div class="Top_Bar_Menu">
+	<a href="projects.html" class="Top_Bar_Menu_Item">Projects</a>
+	<div class="Top_Bar_Menu_Divider"></div>
+	<a href="index.html" class="Top_Bar_Menu_Item">Resume</a>
+	<div class="Top_Bar_Menu_Divider"></div>
+	<a href="contact.html" class="Top_Bar_Menu_Item">Contact</a>
+      </div>
+    </div>
+    <div class="Content">
+      <h2 class="Center_Title">{{ page.title }}</h3>
+      <div class="Content_Body">
+	{{ content }}
+      </div>
+    </div>
+  </body>
+</html>
