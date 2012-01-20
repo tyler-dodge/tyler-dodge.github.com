@@ -81,6 +81,15 @@ body {
     padding-top:20px;
     padding-bottom:20px;
 }
+.Content_Bodytrue {
+    height:500px;
+    text-align:left;
+    background-color:white;
+    border:1px solid #333333;
+    padding:7px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
 .c8 {
     padding:0px;
     margin:0px;
