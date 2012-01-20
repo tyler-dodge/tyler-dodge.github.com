@@ -1,57 +1,56 @@
-@font-face {
-    font-family:Chocktoff;
-    src:url("Chocktoff.ttf"); 
-    font-style:normal;
-}
 body {
     padding:0px;
     margin:0px;
     background:#CCCCCC;
+    font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
 }
 .Top_Bar {
     background-color:#D00000;
+    float:left;
     color:#FFFFFF;
     font-size:30px;
     width:100%;
-    font-family:Chocktoff,sans-serif;
+}
+.Top_Line {
+    background-color:#333333;
+    width:100%;
+    height:3px;
+    float:left;
 }
 .Name_Text {
-    padding-top:20px;
+    padding-top:10px;
+    float:left;
     background-color:#D00000;
-    width:800px;
+    display:inline;
 }
 .Top_Bar_Menu {
+    margin-left:auto;
+    margin-right:auto;
     width:800px;
     height:39px;
-    border:1px solid #BBBBBB;
-    margin-left:auto;
-    margin-right:auto;
-}
-.Top_Bar_Divider {
-    background-color:#000000;
-    border-top:1px #BBBBBB solid;
-    width:800px;
-    margin-left:auto;
-    margin-right:auto;
-    height:30px;
 }
 .Top_Bar_Menu_Item {
-    border-top:1px solid #777777;
-    color:#FFFFFF;
-    background-color:black;
+    font-size:20px;
+    color:white;
     text-align:center;
-    width:266px;
+    width:130px;
     text-decoration:none;
     display:inline;
-    float:left;
+    padding-top:6px;
+    float:right;
     height:100%;
 }
-.Top_Bar_Menu_Divider {
-    background-color:#BBBBBB;
-    width:1px;
-    float:left;
+.Top_Bar_Menu_Itemtrue {
+    font-size:20px;
+    color:white;
+    text-align:center;
+    background-color:#333333;
+    width:130px;
+    text-decoration:none;
     display:inline;
-    height:100%;
+    padding-top:6px;
+    float:right;
+    height:100%;    
 }
 .Top_Bar_Menu_Item:hover {
     background-color:#333333;
@@ -66,7 +65,7 @@ body {
 }
 .GitHub_Link {
     text-decoration:none;
-    color:black;
+    color:#333333;
 }
 .GitHub_Link:hover {
     text-decoration:underline;
@@ -77,8 +76,10 @@ body {
 .Content_Body {
     text-align:left;
     background-color:white;
-    border:1px solid black;
+    border:1px solid #333333;
     padding:3px;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 .c8 {
     padding:0px;

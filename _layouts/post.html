@@ -5,16 +5,17 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
+    <div class="Top_Line"></div>
     <div class="Top_Bar">
       <div class="Name_Text">Tyler Dodge</div>
       <div class="Top_Bar_Menu">
-	<a href="projects.html" class="Top_Bar_Menu_Item">Projects</a>
-	<div class="Top_Bar_Menu_Divider"></div>
-	<a href="index.html" class="Top_Bar_Menu_Item">Resume</a>
-	<div class="Top_Bar_Menu_Divider"></div>
-	<a href="contact.html" class="Top_Bar_Menu_Item">Contact</a>
+	<a href="contact.html" class="Top_Bar_Menu_Item{{page.is_contact}}">Contact</a>
+	<a href="resume.html" class="Top_Bar_Menu_Item{{page.is_resume}}">Resume</a>
+	<a href="projects.html" class="Top_Bar_Menu_Item{{page.is_projects}}">Projects</a>
+	<a href="index.html" class="Top_Bar_Menu_Item{{page.is_home}}">Home</a>
       </div>
     </div>
+    <div class="Top_Line"></div>
     <div class="Content">
       <h2 class="Center_Title">{{ page.title }}</h3>
       <div class="Content_Body">{{ content }}</div>
