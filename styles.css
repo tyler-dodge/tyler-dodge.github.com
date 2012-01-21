@@ -4,9 +4,16 @@ body {
     background:#CCCCCC;
     font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
 }
+.bodytrue
+{
+    height:100%;
+}
+.htmltrue
+{
+    height:100%;
+}
 .Top_Bar {
     background-color:#D00000;
-    float:left;
     color:#FFFFFF;
     font-size:30px;
     width:100%;
@@ -15,7 +22,6 @@ body {
     background-color:#333333;
     width:100%;
     height:3px;
-    float:left;
 }
 .Name_Text {
     padding-top:10px;
@@ -36,7 +42,6 @@ body {
     width:130px;
     text-decoration:none;
     display:inline;
-    padding-top:6px;
     float:right;
     height:100%;
 }
@@ -47,6 +52,9 @@ body {
     background-color:#333333;
     width:130px;
     text-decoration:none;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
     display:inline;
     padding-top:6px;
     float:right;
@@ -62,6 +70,7 @@ body {
     border:1px solid #BBBBBB;
     margin-left:auto;
     margin-right:auto;
+    min-height:100%;
 }
 .GitHub_Link {
     text-decoration:none;
@@ -80,15 +89,7 @@ body {
     padding:3px;
     padding-top:20px;
     padding-bottom:20px;
-}
-.Content_Bodytrue {
-    height:500px;
-    text-align:left;
-    background-color:white;
-    border:1px solid #333333;
-    padding:7px;
-    padding-top:20px;
-    padding-bottom:20px;
+    height:100%;
 }
 .c8 {
     padding:0px;
@@ -97,4 +98,7 @@ body {
 .Resume {
     width:100%;
     height:900px;
+}
+html, body {
+height: 100%;
 }
