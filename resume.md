@@ -37,7 +37,7 @@ PROGRAMMING EXPERTISE
 
 + Proficient in C++, C#, C, and Java
 + Experience in Objective C, Python, Lua, Javascript, Scheme, Elisp
-+ Developed on Windows, UNIX, Android, and iOS
++ Developed on Windows, Linux, Android, and iOS platforms
 
 EXPERIENCE
 ==========
