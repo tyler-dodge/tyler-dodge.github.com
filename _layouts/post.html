@@ -1,25 +1,86 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
   </head>
+
   <body>
-    <div class="Top_Line"></div>
-    <div class="Top_Bar">
-      <div class="Name_Text">Tyler Dodge</div>
-      <div class="Top_Bar_Menu">
-	<a href="contact.html" class="Top_Bar_Menu_Item{{page.is_contact}}">Contact</a>
-	<a href="resume.html" class="Top_Bar_Menu_Item{{page.is_resume}}">Resume</a>
-	<a href="projects.html" class="Top_Bar_Menu_Item{{page.is_projects}}">Projects</a>
-	<a href="index.html" class="Top_Bar_Menu_Item{{page.is_home}}">Home</a>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">Tyler Dodge</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="{{page.home_active}}"><a href="index.html">Home</a></li>
+              <li class="{{page.projects_active}}"><a href="projects.html">Projects</a></li>
+	      <li class="{{page.resume_active}}"><a href="resume.html">Resume</a></li>
+              <li class="{{page.contact_active}}"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
       </div>
     </div>
-    <div class="Top_Line"></div>
-    <div class="Content_Title"><h2 class="Center_Title">{{ page.title }}</h2></div>
-    <div class="Content">
-      <div class="Content_Border"></div>
-      <div class="Content_Body{{page.add_padding}}">{{ content }}</div>
-    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit"><p>
+	{{ content }}
+      </p></div>
+
+
+      <hr>
+
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+
   </body>
 </html>
