@@ -4,7 +4,14 @@ title: Resume
 permalink: resume.html
 resume_active: active
 ---
+<div align='right'>
+  <a href='resume.pdf' class='btn'><i class="icon-download"> </i> Download (pdf)</a>
+</div>
+
 <style>
+.download {
+	text-align: right;
+}
 h2 {
     margin-bottom:0px;
     padding-bottom:0px;    
