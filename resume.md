@@ -71,6 +71,12 @@ PROJECTS
 + Uses Parse for push notifications.
 + Appstore released.
 
+###Remote LaTeX Viewer
+
++ Wanted to be able to dynamically view LaTeX files that I was writing for class on my iPad, so I wrote this.
++ A node.js server for watching and dynamically compiling a LaTeX file
++ Notifies clients of changes in realtime over Socket.IO
++ [BluetoothSMS PC Client on Github](https://github.com/tyler-dodge/rlv)
 
 ###Tbfe Engine
 
@@ -90,8 +96,3 @@ PROJECTS
 + Worked with a small team of friends using Git for integration.
 + [Escape Engine on Github](https://github.com/tyler-dodge/Escape-Engine)
 
-###Remote LaTeX Viewer
-
-+ A node.js server for watching and dynamically compiling a LaTeX file
-+ Notifies clients of changes in realtime over Socket.IO
-+ [BluetoothSMS PC Client on Github](https://github.com/tyler-dodge/rlv)
