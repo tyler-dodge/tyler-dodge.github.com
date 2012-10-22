@@ -31,8 +31,8 @@ Tyler Dodge<br />
 </div>
 EDUCATION
 ---------
-North Carolina State University
-August 2010 - May 2014 Bachelor's Science Computer Science
+North Carolina State University<br />
+August 2010 - May 2014 Bachelor's Science Computer Science<br />
 Current GPA: 3.341
 
 PROGRAMMING EXPERTISE
@@ -40,7 +40,7 @@ PROGRAMMING EXPERTISE
 
 + Proficient in Objective C, Javascript, C, and Java
 + Experience in Python, Lua, PHP
-+ Developed on Windows, OSX, Linux, Android, and iOS platforms
++ Developed on iOS, Linux, OSX, Android, and Windows platforms
 
 EXPERIENCE
 ----------
@@ -69,14 +69,15 @@ PROJECTS
 + Native Guidebook app.
 + Utilized Bump for transferring virtual business cards.
 + Uses Parse for push notifications.
-+ Appstore released.
++ Released on App Store with 2000+ Downloads.
++ [App Store](https://itunes.apple.com/us/app/vidcon-2012/id536607554?mt=8)
 
 ###Remote LaTeX Viewer
 
 + Wanted to be able to dynamically view LaTeX files that I was writing for class on my iPad, so I wrote this.
 + A node.js server for watching and dynamically compiling a LaTeX file
 + Notifies clients of changes in realtime over Socket.IO
-+ [BluetoothSMS PC Client on Github](https://github.com/tyler-dodge/rlv)
++ [Remote LaTeX Viewer](https://github.com/tyler-dodge/rlv)
 
 ###Tbfe Engine
 
