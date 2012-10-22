@@ -35,30 +35,40 @@ Current GPA: 3.341
 PROGRAMMING EXPERTISE
 ---------------------
 
-+ Proficient in C++, C#, C, and Java
-+ Experience in Objective C, Python, Lua, Javascript, Scheme, Elisp
-+ Developed on Windows, Linux, Android, and iOS platforms
++ Proficient in Objective C, Javascript, C, and Java
++ Experience in Python, Lua, PHP
++ Developed on Windows, OSX, Linux, Android, and iOS platforms
 
 EXPERIENCE
 ----------
 
+###Advanced USA Technologies
+Full Stack Developer, February, 2012-Present<br />
+
++ Architected a node.js server using Socket.IO, redis, and mongoose.
++ Utilized Test Driven Development using Mocha.
++ Wrote a native iOS client for the server.
+
 ###Reverie World Studios Inc.
-Senior Engine Programmer, May 1, 2011-Present<br />
+Senior Engine Programmer, May 1, 2011-February, 2012<br />
 
 + Worked on Reverie's Mithrill engine's shadow generation
 + Added and exposed engine features for use in the engine's embedded language
 Lua.
 + Factored out bugs in collision rendering and in the game's map editing software.
-
-###Reverie World Studios Inc.
-Utilities Programmer, December 28, 2010-May 1, 2011<br />
-
-+ Focused on Updater project written in C# which handled file validation, serial key validation, and file retrieval from the server in order to keep game clients up to date. 
++ Worked on Updater project written in C# which handled file validation, serial key validation, and file retrieval from the server in order to keep game clients up to date. 
 + Wrote an admin panel for the updater in C#
 + Using PHP and SQL, wrote server side operations for the updater
 
 PROJECTS
 --------
+###Official VidCon 2012 iOS App
++ Native Guidebook app.
++ Utilized Bump for transferring virtual business cards.
++ Uses Parse for push notifications.
++ Appstore released.
+
+
 ###Tbfe Engine
 
 + A 3D game engine
@@ -77,10 +87,8 @@ PROJECTS
 + Worked with a small team of friends using Git for integration.
 + [Escape Engine on Github](https://github.com/tyler-dodge/Escape-Engine)
 
-###BluetoothSMS PC Client
+###Remote LaTeX Viewer
 
-+ A PC client for recieving and transmitting SMS texts to an android phone.
-+ Uses the wxWidgets library for GUI.
-+ Written in C++.
-+ [BluetoothSMS PC Client on Github](https://github.com/tyler-dodge/BluetoothSMS-PC)
-
++ A node.js server for watching and dynamically compiling a LaTeX file
++ Notifies clients of changes in realtime over Socket.IO
++ [BluetoothSMS PC Client on Github](https://github.com/tyler-dodge/rlv)
