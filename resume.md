@@ -32,9 +32,9 @@ Tyler Dodge<br />
 EDUCATION
 ---------
 
-North Carolina State University<br />
-August 2010 - May 2014 Bachelor's Science Computer Science<br />
-Current GPA: 3.341
++ North Carolina State University<br />
+  August 2010 - May 2014 Bachelor's Science Computer Science<br />
+  Current GPA: 3.341
 
 + Member of the University Honors Program.
 
