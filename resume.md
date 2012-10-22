@@ -28,10 +28,6 @@ h1 {
 <h2>Resume</h2>
 <div class="title">
 Tyler Dodge<br />
-1431-103 Collegiate Circle<br />
-Raleigh, NC 27606<br />
-tldodge@ncsu.edu<br />
-704-443-8108<br />
 </div>
 EDUCATION
 ---------
